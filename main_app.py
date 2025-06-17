@@ -24,7 +24,7 @@ st.set_page_config(page_title="Healthcare Assistant", layout="wide")
 logging.basicConfig(level=logging.INFO)
 
 # Set up Gemini AI API
-os.environ['GOOGLE_API_KEY'] = 'AIzaSyB3lpyL0wgEWj4a_pkXpfYvR3jotXbJfAU'
+os.environ['GOOGLE_API_KEY'] = ''
 genai.configure(api_key=os.environ['GOOGLE_API_KEY'])
 
 # Initialize translator and TTS engine
